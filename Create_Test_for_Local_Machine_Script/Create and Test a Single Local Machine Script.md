@@ -53,7 +53,9 @@ The script generates a `single_laptop_audit.csv` file containing:
 | **SelectedAppVersions** | Version numbers of configured applications                    |
 | **LastWindowsUpdate**   | Date of the most recent Windows Update                        |
 | **PatchList**           | List of installed patches and their installation timestamps   |
-![[Final_Code_Single.png]]
+
+![Final_Code_Single](https://github.com/user-attachments/assets/20b96874-19c2-4f64-8d33-9ce2e9081d52)
+
 ---
 
 ## ✅ Usage Instructions
