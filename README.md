@@ -25,7 +25,7 @@ Automate security auditing across **n** machines by remotely collecting necessar
 | Part | Description                                        | Status       |
 |-------|--------------------------------------------------|--------------|
 | 1     | [Create virtual Active Directory environment](https://github.com/ajoyag/Security-Audit-Automation/blob/main/Create_Virtual_AD_Environment/Creating%20a%20Virtual%20AD%20Environment.md)       | ✅ Completed |
-| 2     | Develop & test script for a single local machine  | 🔜 Upcoming  |
+| 2     | [Develop & test script for a single local machine](https://github.com/ajoyag/Security-Audit-Automation/blob/main/Create_Test_for_Local_Machine_Script/Create%20and%20Test%20a%20Single%20Local%20Machine%20Script.md)  | 🔜 Upcoming  |
 | 3     | Extend script with administrator rights on local machine | 🔜 Upcoming  |
 | 4     | Scale to multiple local machines with admin rights | 🔜 Upcoming  |
 | 5     | Execute multi-machine audit remotely with admin rights | 🔜 Upcoming  |
