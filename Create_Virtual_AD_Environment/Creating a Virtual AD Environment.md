@@ -220,7 +220,7 @@ With this setup, I’ve built:
         
     - Service Account Management.
         
-![[Final_AD_Setup.png]]
+[![[Final_AD_Setup.png]]](https://github.com/ajoyag/Security-Audit-Automation/blob/main/Create_Virtual_AD_Environment/Archive/Final_AD_Setup.png)
 
 ---
 
