@@ -171,9 +171,9 @@ On the Domain Controller:
     
 - Create new Users:
     
-    - `WIN11USER1` ➔ `WIN11USER1@clintens.local`
+    - `WIN11USER1` ➔ `WIN11USER1@test.local`
         
-    - `WIN11USER1` ➔ `WIN11USER2@clintens.local`
+    - `WIN11USER1` ➔ `WIN11USER2@test.local`
         
 - Assign initial passwords and set `Password Never Expires` for lab setup.
     
