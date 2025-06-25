@@ -32,28 +32,6 @@ Automate security auditing across **n** machines by remotely collecting necessar
 
 ---
 
-## Repository Structure
-
-Automated-Security-Auditing-System/  
-
-├── README.md  
-├── LICENSE  
-├── scripts/  
-│ ├── single_machine_audit.ps1  
-│ ├── single_machine_admin_audit.ps1  
-│ ├── multi_machine_admin_audit.ps1  
-│ └── remote_multi_machine_audit.ps1  
-├── setup/  
-│ ├── vmware_lab_setup.md  
-│ └── ad_configuration_steps.md  
-├── logs/  
-│ └── sample_audit_log.txt  
-├── screenshots/  
-│ └── vm_setup.png  
-└── .gitignore
-
----
-
 ## How to Run the Scripts
 
 1. Clone this repository.  
