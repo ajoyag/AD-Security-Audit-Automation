@@ -46,7 +46,7 @@ Powershell
 
 ## Sample Output
 
-Logs and sample output files will be provided in the `logs/` directory as the scripts evolve.
+Logs and sample output files will be provided in the `output/` directory of each project folder as the scripts evolve.
 
 ## Future Improvements
 
