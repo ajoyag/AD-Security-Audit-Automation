@@ -37,7 +37,7 @@ Automate security auditing across **n** machines by remotely collecting necessar
 Automated-Security-Auditing-System/  
 
 ├── README.md  
-├── LICENSE (optional)  
+├── LICENSE  
 ├── scripts/  
 │ ├── single_machine_audit.ps1  
 │ ├── single_machine_admin_audit.ps1  
