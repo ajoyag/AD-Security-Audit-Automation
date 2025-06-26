@@ -1,5 +1,5 @@
 # ==========================================================
-# Final Single Laptop Audit - Custom Format Output
+# Single Laptop Audit
 # ==========================================================
 
 # CONFIG
