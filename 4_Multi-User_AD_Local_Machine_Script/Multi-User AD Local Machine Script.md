@@ -67,6 +67,10 @@ The script generates a `multiuser_laptop_audit_withAD.csv` file containing:
 |Winver|Windows OS version|
 |WinBid|Windows build number and UBR|
 
+![Final_Code_AD4](https://github.com/user-attachments/assets/ff8d0efd-d230-43d0-ae64-505373146b0f)
+
+![Final_Code_AD4-1](https://github.com/user-attachments/assets/efd686f9-5378-44e1-b408-43d0e351df13)
+
 
 ---
 
