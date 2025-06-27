@@ -25,10 +25,10 @@ Automate security auditing across **n** machines by remotely collecting necessar
 | Part | Description                                        | Status       |
 |-------|--------------------------------------------------|--------------|
 | 1     | [Create virtual Active Directory environment](https://github.com/ajoyag/Security-Audit-Automation/blob/main/Create_Virtual_AD_Environment/Creating%20a%20Virtual%20AD%20Environment.md)       | ✅ Completed |
-| 2     | [Develop & test script for a single local machine](https://github.com/ajoyag/Security-Audit-Automation/blob/main/Create_Test_for_Local_Machine_Script/Create%20and%20Test%20a%20Single%20Local%20Machine%20Script.md)  | 🔃 In-Progress  |
-| 3     | [Extend script with administrator rights on local machine](https://github.com/ajoyag/Security-Audit-Automation/blob/main/Multi-User_Local_Machine_Script/Multi-User%20Local%20Machine%20Script.md) | 🔜 Upcoming  |
-| 4     | Scale to multiple local machines with admin rights | 🔜 Upcoming  |
-| 5     | Execute multi-machine audit remotely with admin rights | 🔜 Upcoming  |
+| 2     | [Develop & test script for a single local machine](https://github.com/ajoyag/Security-Audit-Automation/blob/main/Create_Test_for_Local_Machine_Script/Create%20and%20Test%20a%20Single%20Local%20Machine%20Script.md)  | ✅ Completed  |
+| 3     | [Extend script with administrator rights on local machine](https://github.com/ajoyag/Security-Audit-Automation/blob/main/Multi-User_Local_Machine_Script/Multi-User%20Local%20Machine%20Script.md) | 🔃 In-Progress  |
+| 4     | Scale script to multiple local machines with admin rights within the AD domain environment | 🔜 Upcoming  |
+| 5     | Execute remote multi-machine audit with admin rights in the AD domain environment | 🔜 Upcoming  |
 
 ---
 
