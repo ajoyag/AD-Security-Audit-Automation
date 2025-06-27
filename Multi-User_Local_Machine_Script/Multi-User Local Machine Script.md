@@ -47,6 +47,9 @@ The script generates a `multiuser_laptop_audit.csv` file containing:
 |Winver|Windows OS version|
 |WinBid|Windows build number and UBR|
 
+![Final_Code_Multi](https://github.com/user-attachments/assets/b6e1d91f-5db3-4e6b-895e-8d01a13dcd31)
+
+
 ---
 
 ## Usage Instructions
