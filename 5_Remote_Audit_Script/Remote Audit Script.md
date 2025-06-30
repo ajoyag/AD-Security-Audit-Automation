@@ -30,7 +30,7 @@ The result: **centralized visibility** and scalable domain-wide auditing.
 
    ```powershell
    Enable-PSRemoting -Force
-```
+   ```
 
 3. **Allow WinRM on All Profiles (Firewall Rule)**  
     On each client:
@@ -151,7 +151,7 @@ The result will be saved to:
 
 ### 📸 Screenshot
 
-
+![Remote_Audit_Rev1](https://github.com/user-attachments/assets/123f0b51-0ad0-4a1f-ab26-99bb51028043)
 
 ---
 
