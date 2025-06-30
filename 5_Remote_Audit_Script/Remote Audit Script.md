@@ -194,17 +194,4 @@ The system is now:
 - 📊 Build a dashboard to visualize audit results
     
 - 💬 Add Slack/Email alerts for non-compliant systems
-    
 
----
-
-```bash
-# Stay tuned, secure smart. 💼🛡️
-
-#PowerShell #ActiveDirectory #WinRM #EndpointSecurity #CyberAudit #Automation #InfoSec #SecurityTools
-```
-
-```
-
-Would you like me to create a bundled ZIP with the `.ps1` and this `.md` file?
-```
