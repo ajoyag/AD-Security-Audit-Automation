@@ -1,12 +1,12 @@
 # Load Active Directory module
 Import-Module ActiveDirectory -ErrorAction Stop
 
-# Get list of laptops (customize filter as needed)
+# Get list of laptops dynamically (filter for Windows OS machines)
 $laptops = Get-ADComputer -Filter 'OperatingSystem -like "*Windows*"' | Select-Object -ExpandProperty Name
 
 # Store audit results
-
 $results = @()
+$sno = 1
 
 foreach ($laptop in $laptops) {
     Write-Host "`nAuditing $laptop..." -ForegroundColor Cyan
@@ -66,7 +66,6 @@ foreach ($laptop in $laptops) {
             $users = $users | Sort-Object -Unique
 
             # Get installed applications
-
             $apps = @()
             $apps += Get-ItemProperty "HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*" -ErrorAction SilentlyContinue
             $apps += Get-ItemProperty "HKLM:\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*" -ErrorAction SilentlyContinue
@@ -125,7 +124,30 @@ foreach ($laptop in $laptops) {
                 $row | Add-Member -NotePropertyName AD_OU -NotePropertyValue "N/A"
             }
 
-            $results += $row
+            # Add S.No for output
+            $row | Add-Member -NotePropertyName "S.No" -NotePropertyValue $sno
+            $sno++
+
+            # Rename properties to match requested output
+            $finalObj = [PSCustomObject]@{
+                "S.No"                = $row.'S.No'
+                "Hostname"            = $row.Hostname
+                "User"                = $row.User
+                "AD_Name"             = $row.AD_Name
+                "AD_OU"               = $row.AD_OU
+                "CrowdStrike"         = $row.CrowdStrike
+                "CrowdStrike Date"    = $row.'CrowdStrike Date'
+                "CrowdStrike Version" = $row.'CrowdStrike Version'
+                "Netskope"            = $row.Netskope
+                "Netskope Date"       = $row.'Netskope Date'
+                "Netskope Version"    = $row.'Netskope Version'
+                "Encryption"          = $row.Encryption
+                "Patch"               = $row.LastPatch
+                "Winver"              = $row.OS_Version
+                "WinBid"              = $row.WinBuild
+            }
+
+            $results += $finalObj
         }
 
     } catch {
@@ -133,6 +155,11 @@ foreach ($laptop in $laptops) {
     }
 }
 
-# Export results to CSV
-$results | Export-Csv -Path ".\DomainLaptopAudit.csv" -NoTypeInformation -Encoding UTF8
+# Export results to CSV with only required columns
+$results | Select-Object "S.No", "Hostname", "User", "AD_Name", "AD_OU", `
+    "CrowdStrike", "CrowdStrike Date", "CrowdStrike Version", `
+    "Netskope", "Netskope Date", "Netskope Version", `
+    "Encryption", "Patch", "Winver", "WinBid" | `
+    Export-Csv -Path ".\DomainLaptopAudit.csv" -NoTypeInformation -Encoding UTF8
+
 Write-Host "`n✅ Audit complete. Output saved to 'DomainLaptopAudit.csv'." -ForegroundColor Green
