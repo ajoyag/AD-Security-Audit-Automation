@@ -1,5 +1,5 @@
 "S.No","Hostname","User","AD_Name","AD_OU","CrowdStrike","CrowdStrike Date","CrowdStrike Version","Netskope","Netskope Date","Netskope Version","Encryption","Patch","Winver","WinBid"
 "1","TEST-DC","win11user1","Win11User1","local -> test -> CN=Users","Not Installed","N/A","N/A","Not Installed","N/A","N/A","C not encrypted","2024-09-06","Microsoft Windows Server 2025 Standard Evaluation","24H2"
 "2","TEST-DC","win11user2","Win11User2","local -> test -> CN=Users","Not Installed","N/A","N/A","Not Installed","N/A","N/A","C not encrypted","2024-09-06","Microsoft Windows Server 2025 Standard Evaluation","24H2"
-"3","WIN11USER1","WindowsUser1","N/A","N/A","Not Installed","N/A","N/A","Not Installed","N/A","N/A","C not encrypted","2025-06-22","Microsoft Windows 11 Enterprise Evaluation","24H2"
+"3","WIN11USER1","WindowsUser1","Win11User1","local -> test -> CN=Users","Not Installed","N/A","N/A","Not Installed","N/A","N/A","C not encrypted","2025-06-22","Microsoft Windows 11 Enterprise Evaluation","24H2"
 "4","WIN11USER2","Win11User2","Win11User2","local -> test -> CN=Users","Not Installed","N/A","N/A","Not Installed","N/A","N/A","C not encrypted","2025-06-22","Microsoft Windows 11 Enterprise Evaluation","24H2"
