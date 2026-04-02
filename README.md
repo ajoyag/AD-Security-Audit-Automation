@@ -1,4 +1,4 @@
-# Automated Security Auditing System
+# AD Security Audit Automation
 
 ## Overview
 This project aims to automate the repetitive task of auditing multiple machines across different network blocks by remotely collecting system and user information from Active Directory (AD) environments. It leverages PowerShell scripts to retrieve data using administrator credentials, streamlining security audits and improving efficiency.
